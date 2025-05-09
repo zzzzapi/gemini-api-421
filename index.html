@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>API中转站 | 2025年AI大模型API服务 - 免费ChatGPT/Claude/Deepseek API接口</title>
+    <meta name="description" content="【官方认证】专业API中转站服务，提供稳定快速的AI大模型API接口。支持ChatGPT API、Claude API、Deepseek API等，国内直连无需魔法，低成本高效率，注册即送免费额度！">
+    <meta name="keywords" content="API中转站,API中转服务,AI API中转,大模型API中转站,ChatGPT API中转,Claude API中转,Deepseek API中转,API接口服务,免费API额度,国内API直连">
+    <meta property="og:title" content="【2025年最新】AI大模型API中转站 | 4Z API免费API服务">
+    <meta property="og:description" content="专业AI大模型API中转平台，提供ChatGPT/Claude/Deepseek免费API接口。支持GPT-4o/o1，Claude 3.5，Deepseek等全系列模型，国内直连稳定快速，注册即送免费额度！">
+    <meta property="og:url" content="https://zzzzapi.com/">
+    <meta property="twitter:title" content="【2025年最新】AI大模型API中转站 | 4Z API免费API服务">
+    <meta property="twitter:description" content="专业AI大模型API中转平台，提供ChatGPT/Claude/Deepseek免费API接口。支持GPT-4o/o1，Claude 3.5，Deepseek等全系列模型，国内直连稳定快速，注册即送免费额度！">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta charSet="utf-8" />
+    <meta http-equiv='content-language' content='zh-CN'>
+    <link rel="icon" href="/openai.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msvalidate.01" content="425FA97B1C306E30117700826952CD3B" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "4Z API - AI大模型API中转站",
+      "url": "https://zzzzapi.com/",
+      "description": "专业API中转站服务，提供稳定快速的AI大模型API接口",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://zzzzapi.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <style>
+        :root {
+            --primary-color: #0066cc;
+            --secondary-color: #ff6600;
+            --accent-color: #00cc99;
+            --dark-bg: #1a1a1a;
+            --light-text: #ffffff;
+            --highlight-color: #ffcc00;
+            --section-1-bg: #0a4d8b;
+            --section-2-bg: #006080;
+            --section-3-bg: #483d8b;
+            --section-4-bg: #cc6600;
+            --section-5-bg: #8b3a00;
+            --section-6-bg: #6b238e;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        
+        /* 改进的容器样式 */
+        .container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            background: radial-gradient(circle at center, rgba(0,30,60,0.8), rgba(0,0,0,0.9));
+        }
+        
+        /* 内容区块增强 */
+        .content {
+            text-align: center;
+            max-width: 900px;
+            padding: 30px;
+            border-radius: 15px;
+            background: rgba(10,20,40,0.7);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
+            animation: fadeIn 1s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* 标题样式增强 */
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            padding-bottom: 10px;
+        }
+        
+        h1::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 25%;
+            width: 50%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--highlight-color), transparent);
+        }
+        
+        /* 副标题样式优化 */
+        h2 {
+            font-size: 28px;
+            color: var(--highlight-color);
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+        
+        /* 按钮样式优化 */
+        .button {
+            display: inline-block;
+            padding: 16px 32px;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 24px;
+            font-weight: bold;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            border: none;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+            transition: all 0.4s ease;
+            z-index: -1;
+        }
+        
+        .button:hover {
+            transform: scale(1.05) translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,123,255,0.5);
+        }
+        
+        .button:hover::before {
+            left: 0;
+        }
+        
+        /* 增强章节容器样式 */
+        .section-container {
+            margin: 40px 0;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .section-container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: var(--highlight-color);
+        }
+        
+        .section-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+        }
+        
+        /* 更新各部分背景色以提高对比度 */
+        .section-1 { background-color: var(--section-1-bg); }
+        .section-2 { background-color: var(--section-2-bg); }
+        .section-3 { background-color: var(--section-3-bg); }
+        .section-4 { background-color: var(--section-4-bg); }
+        .section-5 { background-color: var(--section-5-bg); }
+        .section-6 { background-color: var(--section-6-bg); }
+        
+        /* 关键词高亮改进 */
+        .api-keyword {
+            font-weight: bold;
+            color: var(--highlight-color);
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+            position: relative;
+            padding: 0 3px;
+        }
+        
+        /* 表格样式优化 */
+        .markdown-content table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 25px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        
+        .markdown-content th {
+            background: linear-gradient(to right, var(--primary-color), rgba(0,102,204,0.8));
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .markdown-content td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            transition: background-color 0.2s ease;
+        }
+        
+        .markdown-content tr:hover td {
+            background-color: rgba(255,255,255,0.05);
+        }
+        
+        /* 代码块样式优化 */
+        pre {
+            background-color: rgba(0,0,0,0.4);
+            border-radius: 8px;
+            padding: 20px;
+            overflow-x: auto;
+            margin: 20px 0;
+            border-left: 4px solid var(--accent-color);
+        }
+        
+        code {
+            font-family: 'Consolas', 'Monaco', monospace;
+            color: var(--accent-color);
+        }
+        
+        /* 响应式优化 */
+        @media screen and (max-width: 767px) {
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 32px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
+            
+            .content {
+                padding: 20px 15px;
+            }
+            
+            .section-container {
+                padding: 20px 15px;
+                margin: 25px 0;
+            }
+            
+            .button {
+                font-size: 18px;
+                padding: 12px 24px;
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h1>专业API中转站 - 2025年AI大模型API接口服务</h1>
+            <h2>一站式解决ChatGPT、Claude、Deepseek各大模型API直连需求</h2>
+            <h2>🔥 国内直连稳定 | ⚡ 成本降低40% | 💯 企业级API支持</h2>
+            <a href="https://zzzzapi.com/" target="_self" class="button">免费注册领取API额度</a>
+            <h3>实时更新：<strong id="curdate"></strong></h3>
+        </div>
+        <div class="arrow-down" onclick="scrollToContent()">⬇️ 查看更多API中转服务</div>
+    </div>
+
+    <!-- Second Screen Content -->
+    <section class="markdown-content" id="more-content">
+
+        <blockquote>
+        <p>【2025最新】<strong>AI大模型API中转站完全指南</strong> — 提供ChatGPT、Claude、Deepseek等<strong>免费API接口</strong>，让AI开发无障碍！</p>
+    </blockquote>
+    <p><a href="https://zzzzapi.com/" target="_blank" class="zzzzapi-highlight">4Z API</a>提供<strong>专业AI大模型API中转服务</strong>，解决国内开发者API访问难题，支持各类主流大模型API接口调用。</p>
+    <p>无需科学上网，即可稳定使用<strong>OpenAI API、Claude API和Deepseek API</strong>等服务！让AI为您的应用开发提供强大助力！</p>
+
+    <div class="section-container section-1">
+        <h2><span class="api-keyword">API中转站</span>核心优势 - 为何选择4Z API？</h2>
+        <p>作为中国领先的<strong class="api-keyword">AI大模型API中转服务平台</strong>，4Z API专为中国开发者和企业打造更稳定、更便捷的API调用体验。</p>
+        <p>我们的<strong class="api-keyword">API中转站</strong>五大核心竞争力：</p>
+        <ul>
+            <li>✅ <strong>国内直连访问</strong>：无需科学上网工具，直接调用API，平均延迟仅50ms</li>
+            <li>✅ <strong>企业级稳定性</strong>：采用多节点冗余架构，99.99%可用性，7×24小时不间断服务</li>
+            <li>✅ <strong>全模型覆盖</strong>：一站式提供OpenAI、Claude、Deepseek等所有主流大模型API接口</li>
+            <li>✅ <strong>显著降低成本</strong>：比官方渠道节省20-40%费用，提供更灵活的计费方案</li>
+            <li>✅ <strong>专业技术支持</strong>：中文技术文档，专人技术支持，1小时内响应问题</li>
+        </ul>
+    </div>
+
+    <div class="section-container section-2">
+        <h2>【2025年3月】热门API服务全览</h2>
+        <p>我们为您提供市场上最全面的<strong>AI大模型API接口</strong>，覆盖多种领先技术，助力您的智能应用开发：</p>
+        <ul>
+            <li><a href="https://zzzzapi.com/" target="_blank"><strong>OpenAI API</strong></a> - 涵盖GPT-3.5/4/4o/o1/o3全系列模型，支持文本生成、图像创作、语音转文本等多项功能，功能强大且灵活。<span style="color:#ff4d4d;">热度：   ★★★★★</span></li>
+           <li><a href="https://zzzzapi.com/" target="_blank"><strong>Claude API</strong></a> - 集成Claude 3 Opus/Sonnet/Haiku系列，擅长处理长文本理解与高质量内容创作，表现卓越。<span style="color:#ff4d4d;">热度：★★★★☆</span></li>
+           <li><a href="https://zzzzapi.com/" target="_blank"><strong>Deepseek API</strong></a> - 中国顶尖模型之一，支持Deepseek Chat和Deepseek，提供高效智能解决方案。<span style="color:#ff4d4d;">热度：★★★★★</span></li>
+           <li><a href="https://zzzzapi.com/" target="_blank"><strong>更多API服务</strong></a> - 包括百度文心一言、Gemini、Llama 3等多样化模型接口，满足不同需求。<span style="color:#ff4d4d;">持续更新中</span></li>
+        </ul>
+    </div>
+
+    <div class="section-container section-3">
+        <h2><span class="api-keyword">API中转站</span>对比分析 - 为何开发者都选择4Z API？</h2>
+        <table border="1">
+            <tr>
+                <th>对比项</th>
+                <th>传统API调用方式</th>
+                <th>4Z <span class="api-keyword">API中转站</span></th>
+            </tr>
+            <tr>
+                <td><strong>访问稳定性</strong></td>
+                <td>经常断连，需要科学上网</td>
+                <td>✅ 国内多节点负载均衡，稳定直连</td>
+            </tr>
+            <tr>
+                <td><strong>响应速度</strong></td>
+                <td>平均延迟300-800ms</td>
+                <td>✅ 优化至50-100ms，提升80%</td>
+            </tr>
+            <tr>
+                <td><strong>模型支持</strong></td>
+                <td>需分别注册多个平台</td>
+                <td>✅ 一个账号调用所有主流大模型API</td>
+            </tr>
+            <tr>
+                <td><strong>使用成本</strong></td>
+                <td>官方美元计费+跨境手续费</td>
+                <td>✅ 人民币直接支付，比官方低40%</td>
+            </tr>
+            <tr>
+                <td><strong>开发便捷性</strong></td>
+                <td>英文文档，集成复杂</td>
+                <td>✅ 中文开发文档，5分钟完成接入</td>
+            </tr>
+            <tr>
+                <td><strong>计费方式</strong></td>
+                <td>最低充值金额高，小额调用不友好</td>
+                <td>✅ 按量计费，1元起充，更经济实惠</td>
+            </tr>
+            <tr>
+                <td><strong>技术支持</strong></td>
+                <td>邮件支持，响应慢，语言障碍</td>
+                <td>✅ 中文技术团队，微信群实时支持</td>
+            </tr>
+        </table>
+
+        <p><strong>行业专家推荐：</strong>对于中国AI开发者和企业，<span class="api-keyword">4Z API中转站</span>是目前市场上<strong>性价比最高、最稳定可靠</strong>的AI大模型API接入解决方案。</p>
+    </div>
+
+    <div class="section-container section-4">
+        <h2><span class="api-keyword">API中转站</span>最佳应用场景</h2>
+        <p>我们的<strong class="api-keyword">API中转服务</strong>已成功应用于以下行业场景：</p>
+        
+        <div class="scenario-card">
+            <h3>🏢 企业智能客服系统</h3>
+            <p>通过<span class="api-keyword">API中转站</span>调用GPT-4o或Claude 3.5 Sonnet，构建7×24小时智能客服，大幅降低人力成本，提升客户满意度。</p>
+        </div>
+        
+        <div class="scenario-card">
+            <h3>📱 AI助手APP开发</h3>
+            <p>国内APP开发者利用我们的<span class="api-keyword">API中转服务</span>，快速接入顶级大模型能力，无需处理复杂的网络问题。</p>
+        </div>
+        
+        <div class="scenario-card">
+            <h3>🖥️ 开发者工具链</h3>
+            <p>软件公司通过<span class="api-keyword">API中转站</span>接入Deepseek Coder等编程模型，提升代码生成和审查效率，加速开发流程。</p>
+        </div>
+        
+        <div class="scenario-card">
+            <h3>🎓 教育机构AI课程</h3>
+            <p>培训机构借助我们的<span class="api-keyword">API接口服务</span>，搭建AI教学平台，为学生提供前沿AI体验环境。</p>
+        </div>
+        
+        <style>
+            .scenario-card {
+                background: rgba(0,0,0,0.2);
+                border-radius: 8px;
+                padding: 15px;
+                margin: 15px 0;
+                border-left: 3px solid var(--highlight-color);
+                transition: transform 0.3s ease;
+            }
+            .scenario-card:hover {
+                transform: translateX(5px);
+                background: rgba(0,0,0,0.3);
+            }
+            .scenario-card h3 {
+                color: var(--highlight-color);
+                margin-top: 0;
+            }
+        </style>
+    </div>
+
+    <div class="section-container section-5">
+        <h2><span class="api-keyword">API中转站</span>使用数据与客户评价</h2>
+        
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number" id="user-count">50,000+</div>
+                <div class="stat-label">活跃用户</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="api-calls">10亿+</div>
+                <div class="stat-label">API调用次数</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="uptime">99.99%</div>
+                <div class="stat-label">服务可用率</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="response-time">50ms</div>
+                <div class="stat-label">平均响应时间</div>
+            </div>
+        </div>
+        
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"作为开发团队，我们尝试过多家<span class="api-keyword">API中转服务</span>，最终选择了4Z API。他们的服务稳定性和技术支持无可比拟，节省了我们大量调试时间。"</p>
+                <div class="author">— 王工，某知名科技公司CTO</div>
+            </div>
+            <div class="testimonial">
+                <p>"我们的AI教育平台每天需要处理上万次API调用，自从使用4Z <span class="api-keyword">API中转站</span>，成本降低了35%，同时响应速度提升了3倍。"</p>
+                <div class="author">— 李总，教育科技公司创始人</div>
+            </div>
+        </div>
+        
+        <style>
+            .stats-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 30px 0;
+                gap: 20px;
+            }
+            
+            .stat-item {
+                flex: 1;
+                min-width: 120px;
+                text-align: center;
+                background: rgba(0,0,0,0.2);
+                padding: 20px 10px;
+                border-radius: 10px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+            
+            .stat-number {
+                font-size: 28px;
+                font-weight: bold;
+                color: var(--highlight-color);
+                margin-bottom: 5px;
+            }
+            
+            .stat-label {
+                font-size: 16px;
+                color: var(--light-text);
+            }
+            
+            .testimonials {
+                margin-top: 40px;
+            }
+            
+            .testimonial {
+                background: rgba(0,0,0,0.2);
+                border-radius: 10px;
+                padding: 20px;
+                margin-bottom: 20px;
+                position: relative;
+            }
+            
+            .testimonial p {
+                font-style: italic;
+                font-size: 16px;
+                line-height: 1.6;
+            }
+            
+            .testimonial:before {
+                content: """;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                font-size: 60px;
+                color: rgba(255,255,255,0.1);
+                font-family: Georgia, serif;
+            }
+            
+            .author {
+                text-align: right;
+                font-weight: bold;
+                color: var(--accent-color);
+            }
+            
+            @media screen and (max-width: 767px) {
+                .stats-container {
+                    flex-direction: column;
+                }
+                
+                .stat-item {
+                    margin-bottom: 15px;
+                }
+            }
+        </style>
+    </div>
+
+    <div class="section-container section-6">
+        <h2><span class="api-keyword">API中转站</span>常见问题解答</h2>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">API中转站安全吗？我的数据会被存储吗？</div>
+                <div class="faq-answer">
+                    <p>4Z <span class="api-keyword">API中转站</span>采用端到端加密技术，仅作为请求中转，不存储您的对话内容。我们已通过ISO27001信息安全认证，确保您的数据安全。所有API调用均采用TLS 1.3加密传输，保障数据隐私。</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">使用API中转服务的访问速度如何？</div>
+                <div class="faq-answer">
+                    <p>我们在国内多个城市部署了高性能服务器节点，平均响应延迟仅为50-100ms，比直接访问官方API快3-5倍。我们的<span class="api-keyword">API中转技术</span>采用专业级负载均衡和智能路由，即使在高峰期也能保持稳定连接。</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">如何获取API密钥并开始使用？</div>
+                <div class="faq-answer">
+                    <p>注册4Z <span class="api-keyword">API中转站</span>账户后，在控制台的"API管理"页面可以一键创建API密钥。新用户注册即送100元免费测试额度，无需信用卡。创建API密钥后，只需将原API请求地址更换为我们的中转地址即可立即开始使用。</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">使用API中转站需要修改现有代码吗？</div>
+                <div class="faq-answer">
+                    <p>不需要大幅修改代码。我们的<span class="api-keyword">API中转服务</span>与官方API保持高度兼容，只需修改API请求地址和认证密钥，其他参数保持不变。我们提供Python、Node.js、Java等多种语言的示例代码，通常5分钟内即可完成迁移。</p>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+            .faq-container {
+                margin-top: 30px;
+            }
+            
+            .faq-item {
+                margin-bottom: 15px;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            }
+            
+            .faq-question {
+                background: rgba(0,0,0,0.3);
+                padding: 15px 20px;
+                font-weight: bold;
+                cursor: pointer;
+                position: relative;
+                transition: background-color 0.3s ease;
+            }
+            
+            .faq-question:after {
+                content: "▼";
+                position: absolute;
+                right: 20px;
+                font-size: 12px;
+                transition: transform 0.3s ease;
+            }
+            
+            .faq-question.active:after {
+                transform: rotate(180deg);
+            }
+            
+            .faq-question:hover {
+                background: rgba(0,0,0,0.4);
+            }
+            
+            .faq-answer {
+                padding: 0 20px;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease, padding 0.3s ease;
+                background: rgba(0,0,0,0.15);
+            }
+            
+            .faq-answer.active {
+                padding: 20px;
+                max-height: 500px;
+            }
+        </style>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const questions = document.querySelectorAll('.faq-question');
+                
+                questions.forEach(question => {
+                    question.addEventListener('click', function() {
+                        const answer = this.nextElementSibling;
+                        const isActive = this.classList.contains('active');
+                        
+                        // 关闭所有其他FAQ
+                        questions.forEach(q => {
+                            q.classList.remove('active');
+                            q.nextElementSibling.classList.remove('active');
+                        });
+                        
+                        // 如果当前不是active状态，则打开它
+                        if (!isActive) {
+                            this.classList.add('active');
+                            answer.classList.add('active');
+                        }
+                    });
+                });
+            });
+        </script>
+    </div>
+
+    <hr>
+    </section>
+
+  <script>
+        const colors = [
+            ['#ff0080', '#7928ca'], 
+            ['#ff4d4d', '#f9cb28'], 
+            ['#7928ca', '#4c88e8'], 
+            ['#4c88e8', '#4FE2B1'], 
+            ['#ff0080', '#ff7f00']  
+        ];
+        const randomIndex = Math.floor(Math.random() * colors.length);
+        const [color1, color2] = colors[randomIndex];
+        document.documentElement.style.setProperty('--color-1', color1);
+        document.documentElement.style.setProperty('--color-2', color2);
+
+        function scrollToContent() {
+            document.getElementById('more-content').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function formatDate(date) {
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}/${month}/${day}`;
+        }
+        
+        document.getElementById('curdate').textContent = formatDate(new Date());
+        document.getElementById('update-time').textContent = formatDate(new Date()).replace(/\//g, '年').replace(/(\d+)$/, '$1日');
+        
+    </script>
+
+    <script>
+        // 数字滚动动画
+        function animateValue(id, start, end, duration) {
+            if (start === end) return;
+            const range = end - start;
+            let current = start;
+            const increment = end > start ? 1 : -1;
+            const stepTime = Math.abs(Math.floor(duration / range));
+            const obj = document.getElementById(id);
+            
+            if (!obj) return;
+            
+            const timer = setInterval(function() {
+                current += increment;
+                obj.innerHTML = current + (id === 'response-time' ? 'ms' : (id === 'uptime' ? '%' : '+'));
+                if (current == end) {
+                    clearInterval(timer);
+                }
+            }, stepTime);
+        }
+        
+        // 滚动检测与动画触发
+        function checkScroll() {
+            const elements = document.querySelectorAll('.section-container');
+            
+            elements.forEach(element => {
+                const position = element.getBoundingClientRect();
+                
+                // 如果元素进入视口
+                if(position.top < window.innerHeight && position.bottom >= 0) {
+                    element.classList.add('visible');
+                    
+                    // 如果是统计部分，触发数字动画
+                    if(element.classList.contains('section-5')) {
+                        setTimeout(() => {
+                            animateValue('user-count', 0, 50, 2000);
+                            animateValue('api-calls', 0, 10, 2000);
+                            animateValue('uptime', 95, 99.99, 2000);
+                            animateValue('response-time', 300, 50, 2000);
+                        }, 500);
+                    }
+                }
+            });
+        }
+        
+        // 渐变背景动画
+        function animateBackground() {
+            const colors = [
+                ['#0066cc', '#6600cc'], 
+                ['#cc3300', '#ffcc00'], 
+                ['#0099cc', '#00cc99'], 
+                ['#9900cc', '#0066cc'], 
+                ['#cc6600', '#ffcc00']
+            ];
+            
+            let colorIndex = 0;
+            
+            setInterval(() => {
+                colorIndex = (colorIndex + 1) % colors.length;
+                const [color1, color2] = colors[colorIndex];
+                
+                document.documentElement.style.setProperty('--primary-color', color1);
+                document.documentElement.style.setProperty('--secondary-color', color2);
+                
+                // 平滑过渡的CSS
+                document.querySelector('.background').style.transition = 'background 2s ease';
+                document.querySelector('.background').style.background = `linear-gradient(45deg, ${color1}, ${color2})`;
+            }, 8000);
+        }
+        
+        // 执行所有初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 设置当前日期
+            const today = new Date();
+            document.getElementById('curdate').textContent = 
+                `${today.getFullYear()}年${today.getMonth()+1}月${today.getDate()}日`;
+            document.getElementById('update-time').textContent = 
+                `${today.getFullYear()}年${today.getMonth()+1}月${today.getDate()}日`;
+            
+            // 添加滚动监听
+            window.addEventListener('scroll', checkScroll);
+            checkScroll(); // 初始检查
+            
+            // 启动背景动画
+            animateBackground();
+            
+            // 添加元素可见性CSS
+            const style = document.createElement('style');
+            style.textContent = `
+                .section-container {
+                    opacity: 0;
+                    transform: translateY(30px);
+                    transition: opacity 0.8s ease, transform 0.8s ease;
+                }
+                
+                .section-container.visible {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            `;
+            document.head.appendChild(style);
+        });
+    </script>
+</body>
+</html>
